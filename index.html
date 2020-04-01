@@ -25,6 +25,57 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <style>
+
+    .screenshot {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+
+    .portfolioItem {
+      text-align: center;
+      max-width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      padding-bottom: 30px;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    h5{
+      font-size: 300%;
+    }
+
+    .portfolioItem p {
+      max-width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .portfolioItem button {
+      font-size: 20px;
+      padding: 10px;
+      width: 30%;
+      background-color: black;
+      color: white;
+      border: 0px;
+      border-radius: 5px;
+    }
+
+    .portfolioItem button:hover {
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+    }
+
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -229,27 +280,31 @@
       <div class="w-100">
         <h2 class="mb-5">Portfolio</h2>
         <ul>
-          <li>
+          <li class="portfolioItem">
+            <img class="screenshot" src="img/space.png" alt="Ship fighting an enemy ship">
             <h5>Space shooter</h5>
-            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/SpaceShooter/'">Play</button>
             <p>This was the first ever game I developed in Unity and it taught me a lot about the game engine itself but also
             in developing games. It is a 2D top down shoot 'em up game based off space invaders.</p>
+            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/SpaceShooter/'">Play</button>
           </li>
-          <li>
+          <li class="portfolioItem">
+            <img class="screenshot" src="img/tanks.png" alt="Cartoon tanks battling in a town">
             <h5>Tanks</h5>
-            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/TANKS/'">Play</button>
             <p>This was my first 3D game I developed in Unity. This is based on the Unity tutorial "TANKS" but with a few of my own
               modifications and added features. It is a 3D isometric multi-player game where players try destroy each other tanks.</p>
+            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/TANKS/'">Play</button>
           </li>
-          <li>
+          <li class="portfolioItem">
+            <img class="screenshot" src="img/rpg.png" alt="Top down 2D view of character in a market">
             <h5>Top Down RPG</h5>
-            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/RPG/'">Play</button>
             <p>This is an in development top down Zelda style game that I am working on. It's not going to be called Top Down RPG but I'm a wee way away from finding a name.</p>
+            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/RPG/'">Play</button>
           </li>
-		  <li>
+		  <li class="portfolioItem">
+            <img class="screenshot" src="img/land.png" alt="Colored randomly generated landscape">
             <h5>Procedural Landmass Generator</h5>
-            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/ProceduralMapGen/'">Play</button>
             <p>Procedural Landmass Generator is a tool that will generate a 3D map using Perlin Noise and will color specific regions of the map with the color based on its height (eg low land will have grass whereas tops of mountains will have snow on it).</p>
+            <button type="button" onclick="window.location.href='https://maxstewart.github.io/assets/unity/ProceduralMapGen/'">Play</button>
           </li>
         </ul>
       </div>
