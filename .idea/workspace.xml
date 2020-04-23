@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9130ab9-3c0a-4b53-a600-ecdf6ff946db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/land.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rpg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/space.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tanks.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +83,7 @@
       <workItem from="1585305396538" duration="265000" />
       <workItem from="1585305727141" duration="289000" />
       <workItem from="1585696060525" duration="2565000" />
+      <workItem from="1587016738310" duration="7000" />
     </task>
     <servers />
   </component>
